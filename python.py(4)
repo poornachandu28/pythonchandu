@@ -22,3 +22,26 @@ while True:
             break
         else:
             continue
+            
+            
+           
+            
+            ##########   output  #######
+            
+            
+            
+            
+first num: 2
+operator: +
+second num: 2
+2 + 2 = 4
+do you want to continue?: n
+first num: 5
+operator: -
+second num: 2
+5 - 2 = 3
+do you want to continue?: exit
+2
+        
+            
+            
