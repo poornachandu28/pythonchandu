@@ -1,7 +1,7 @@
 count=0
 while True:
         b = int(input('first num: '))
-        c = input('operator: ')
+        c = input('operator(+,-,*,/): ')
         d = int(input('second num: '))
         if c == '+':
             print(b,'+',d,'=',b+d)
@@ -32,12 +32,12 @@ while True:
             
             
 first num: 2
-operator: +
+operator(+,-,*,/): +
 second num: 2
 2 + 2 = 4
 do you want to continue?: n
 first num: 5
-operator: -
+operator(+,-,*,/): -
 second num: 2
 5 - 2 = 3
 do you want to continue?: exit
