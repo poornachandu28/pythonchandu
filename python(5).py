@@ -1,3 +1,5 @@
+#######   youngest employeee #########
+
 def list(my_list):
     if my_list[0]['age'] < my_list[1]['age']:
         print("name of youngest employee:", my_list[0]['name'])
@@ -15,7 +17,7 @@ list1 = [{"name": "Tina", "age": 30, "birthday": "1990-03-10", "job": "Devops En
 list(list1)
 
 
-
+########  even numbers from accept list   ########
 
 
 def even_numbers():
@@ -26,7 +28,7 @@ def even_numbers():
 even_numbers()
 
 
-
+#######   checking upper and lower case letters ######
 
 
 def letters(word):
