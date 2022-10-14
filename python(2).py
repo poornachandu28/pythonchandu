@@ -3,7 +3,7 @@ employee={"name":"tim",
           'age': 30,
           "job": "DevOps Engineer"
 }
-employee.__delitem__('age')
+employee.pop('age')
 employee['job'] = 'Software Engineer'
 for key, value in employee.items():
     print(key,':',value)
