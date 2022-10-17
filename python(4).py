@@ -35,6 +35,8 @@ while loop == 1:
             print("The number of calculations user did:", count)
         else:
             print("%d is not valid input. Please enter the correct option." % choice)
+    except Exception:
+        print(" your output is undefine ")
     except ValueError and TypeError:
         print("%r is not valid input.  Please enter 1, 2, 3, 4." % choice)
         
