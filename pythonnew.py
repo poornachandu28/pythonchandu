@@ -36,3 +36,19 @@ print(f"{n*60*60} seconds")
 
 
 
+
+###########    output      #############
+
+
+When is your birthday? [Year] : 2000
+When is your birthday? [Month] : 09
+When is your birthday? [Day] : 28
+Time to Birthday is  345 days,
+8280  hours and
+496800  minutes,
+29808000 seconds
+
+Process finished with exit code 0
+
+
+
