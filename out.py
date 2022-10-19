@@ -44,3 +44,16 @@ print(f"Time to Birthday is  {days} days,")
 print(f"{n}  hours left and")
 print(f"{x}  minutes left and,")
 print(f"{m} seconds")
+
+
+
+########   output    ########
+Enter the Year u want (birth year): 2000
+enter the month (birth month)  : 10
+enter the day (birth day) : 29
+Time to Birthday is  9 days,
+2  hours left and
+27  minutes left and,
+5 seconds
+
+Process finished with exit code 0
