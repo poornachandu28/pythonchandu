@@ -1,3 +1,5 @@
+#################################3
+
 class Student:
     def __init__(self, firstname, lastname, age, lectures):
         self.firstname = firstname
@@ -36,6 +38,25 @@ s.add_lectures(lectures)
 s.remove_lectures(lectures)
 
 
+#########     output     ########
+
+
+Enter first name :   poorna
+Enter last name  : chandu
+Enter age :  23
+Enter lectures list he/she teaches :   Devops Aws
+Full name: poorna chandu
+age: 23
+List of lectures student attend: ['Devops', 'Aws']
+ Add new list of lectures student attend :  python
+New lectures list is: ['Devops', 'Aws', 'python']
+Enter lectures u want to remove :    Aws
+Subjects list after removal is: ['Devops', 'python']
+
+
+
+
+######################################################
 
 
 class Professor:
@@ -75,6 +96,26 @@ s.add_subjects(subjects)
 s.remove_subjects(subjects)
 
 
+
+###########    output   ############
+
+Enter professor first name : manoj
+Enter professor last name :  sir
+Enter age  : 29
+Enter lectures list he/she teaches :   Devops
+['Devops']
+Full name: manoj sir
+List of subjects he teach: ['Devops']
+Enter new list of subjects to teach   python
+New subjects list is: ['Devops', 'python']
+Enter list of subjects to remove    Devops
+Subjects list after removal is: ['python']
+
+
+#########################################################
+
+
+
 class Lecture:
     def __init__(self, name, max_no_of_students, duration, professor_list):
         self.name = name
@@ -100,6 +141,24 @@ professor_list = list(input('Enter  list of profs teach the subject   ').split("
 s = Lecture(name, max_students, duration, professor_list)
 s.name_duration(name, duration)
 s.new_professor_add(professor_list)
+
+
+###########  output    #########
+
+
+Enter lecture name :  Aws
+Enter max no of students  :  20
+Enter duration  in minutes :  40
+Enter  list of profs teach the subject  : Manoj Suresh
+Name of the lecture is: Aws 
+ Duration of the lecture in minutes is 40
+Enter new list of professors to teach   Naresh
+Old and New professor list is: ['Manoj', 'Suresh', 'Naresh']
+
+
+
+
+#######################################################
 
 
 class Person:
@@ -128,3 +187,17 @@ l_name = input("Enter professor last  name   ")
 age = input("Enter professor age   ")
 prof_obj = Professor(f_name, l_name, age)
 prof_obj.print_name(f_name, l_name)
+
+
+
+###############  output  ##############
+
+
+Enter student first name   poorna
+Enter student last  name   chandu
+Enter student age   22
+Person name is: poorna chandu
+Enter professor first name   manoj
+Enter professor last  name   macherla
+Enter professor age   29
+Person name is: manoj macherla
